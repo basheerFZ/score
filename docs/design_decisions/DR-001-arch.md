@@ -53,6 +53,15 @@ Existing independently managed open-source projects/modules may be integrated wh
 
 This decision is binding for the project. Any deviation requires a new, explicitly agreed Architecture Decision Record.
 
+### No Constraint on Independent Module Delivery
+
+This decision concerns architectural alignment and change justification. It does not impose constraints on modularity, packaging, or delivery models of the modules within the stack.
+
+In particular, the consistent stack approach does not prevent modules or features from being independently buildable or releasable, nor from being used outside the S-CORE stack.
+
+The decision only establishes that, when modules are integrated into S-CORE, their evolution and changes must be justified in terms of stack-level objectives.
+
+
 ## Options Considered
 
 ### Option 1: Reference Integration of Independent Modules
